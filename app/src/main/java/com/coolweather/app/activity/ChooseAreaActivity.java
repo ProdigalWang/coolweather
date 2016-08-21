@@ -81,7 +81,7 @@ public class ChooseAreaActivity extends AppCompatActivity {
             finish();
             return;
         }
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
+
         setContentView(R.layout.choose_area);
         listView = (ListView) findViewById(R.id.list_view);
         titleText = (TextView) findViewById(R.id.title_text);

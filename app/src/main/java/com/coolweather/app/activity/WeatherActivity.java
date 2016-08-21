@@ -62,7 +62,7 @@ public class WeatherActivity extends AppCompatActivity implements OnClickListene
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
+
         setContentView(R.layout.weather_layout);
         // 初始化各控件
         weatherInfoLayout = (LinearLayout) findViewById(R.id.weather_info_layout);
